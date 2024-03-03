@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateNoteActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <EditText
+        android:id="@+id/editTextUpdateName"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Name" />
+
+    <EditText
+        android:id="@+id/editTextUpdateDate"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Date" />
+
+    <EditText
+        android:id="@+id/editTextUpdateNote"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Note" />
+
+    <Button
+        android:id="@+id/UpdateNotebutton"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:text="Update Note" />
+
+</LinearLayout>
